@@ -4,7 +4,6 @@ Themes for Windows Terminal
 `settings.json` file is when you click on the down arrow then settings within the Terminal application.
 
 # PowerShell: 5
-Settings for PowerShell: 5
 -----
 <br>
 <img src="Screenshots/PS_5.png">
@@ -32,7 +31,6 @@ Install-Module PSReadLine -Scope CurrentUser
 ```
 
 # PowerShell: 7
-Settings for PowerShell: 7
 -----
 <br>
 <img src="Screenshots/PS_7.png">
@@ -60,13 +58,11 @@ Install-Module PSReadLine -Scope CurrentUser
 ```
 
 # Command Prompt
-CMD
 -----
 <br>
 <img src="Screenshots/CMD.png">
 
 # Fonts
-Fonts needed
 -----
 
 The fonts that you need are:
@@ -74,7 +70,6 @@ The fonts that you need are:
 
 
 # Sources
-Sources used
 -----
 And copyrights should belong to them, if any.
 
