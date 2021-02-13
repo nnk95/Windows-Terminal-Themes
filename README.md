@@ -13,12 +13,19 @@ While in PowerShell 7, within Terminal: `notepad $PROFILE`. This should bring up
 Import-Module posh-git
 Import-Module oh-my-posh
 Import-Module Terminal-Icons
+Import-Module PSReadLine
 Set-PoshPrompt -Theme slim
 Clear
 ```
 
-Save the file, return to PowerShell: 7 within Terminal and input:
+Save the file. Return to PowerShell: 7 within Terminal and input:
 ```
+Install-Module -Name PowerShellGet -Force
+Set-ExecutionPolicy RemoteSigned
+Install-Module post-git -Scope CurrentUser
+Install-Module oh-my-posh -AllowPrerelease -Scope CurrentUser
+Install-Module Terminal-Icons -Scope CurrentUser
+Install-Module PSReadLine -Scope CurrentUser
 . $PROFILE
 ```
 
@@ -32,11 +39,35 @@ While in PowerShell 5, within Terminal: `notepad $PROFILE`. This should bring up
 Import-Module posh-git
 Import-Module oh-my-posh
 Import-Module Terminal-Icons
+Import-Module PSReadLine
 Set-Theme Operator
 Clear
 ```
 
-Save the file, return to PowerShell: 7 within Terminal and input:
+Save the file. Return to PowerShell: 5 within Terminal and input:
 ```
+Install-Module -Name PowerShellGet -Force
+Set-ExecutionPolicy RemoteSigned
+Install-Module post-git -Scope CurrentUser
+Install-Module oh-my-posh -Scope CurrentUser
+Install-Module Terminal-Icons -Scope CurrentUser
+Install-Module PSReadLine -Scope CurrentUser
 . $PROFILE
 ```
+# Fonts
+Fonts needed
+-----
+
+The fonts that you need are:
+[Cascadia Code PL](https://github.com/microsoft/cascadia-code/releases) and the rest of the fonts in the `Fonts` folder. Basically, any powerline glyph nerd font.
+
+
+# Sources
+Sources used
+-----
+And copyrights should belong to them, if any.
+
+- [oh-my-posh v2](https://github.com/JanDeDobbeleer/oh-my-posh)
+- [oh-my-posh v3](https://github.com/JanDeDobbeleer/oh-my-posh3)
+- [posh-git](https://github.com/dahlbyk/posh-git)
+- [Aurelia Theme](https://github.com/mobilemancer/windows-terminal-aurelia)
