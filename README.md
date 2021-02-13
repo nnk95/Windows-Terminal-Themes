@@ -6,6 +6,8 @@ Themes for Windows Terminal
 # PowerShell: 5
 Settings for PowerShell: 5
 -----
+<br>
+<img src="Screenshots/PS_5.png">
 
 While in PowerShell 5, within Terminal: `notepad $PROFILE`. This should bring up a file (create new if necessary). Within this file, input:
 
@@ -32,6 +34,8 @@ Install-Module PSReadLine -Scope CurrentUser
 # PowerShell: 7
 Settings for PowerShell: 7
 -----
+<br>
+<img src="Screenshots/PS_7.png">
 
 While in PowerShell 7, within Terminal: `notepad $PROFILE`. This should bring up a file (create new if necessary). Within this file, input:
 
@@ -54,6 +58,13 @@ Install-Module Terminal-Icons -Scope CurrentUser
 Install-Module PSReadLine -Scope CurrentUser
 . $PROFILE
 ```
+
+# Command Prompt
+CMD
+-----
+<br>
+<img src="Screenshots/CMD.png">
+
 # Fonts
 Fonts needed
 -----
