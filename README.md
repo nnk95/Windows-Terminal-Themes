@@ -1,33 +1,7 @@
 # Windows Terminal: Themes
 Themes for Windows Terminal
 
-`settings.json` file is when you click on the down arrow then settings.
-
-# PowerShell: 7
-Settings for PowerShell: 7
------
-
-While in PowerShell 7, within Terminal: `notepad $PROFILE`. This should bring up a file (create new if necessary). Within this file, input:
-
-```
-Import-Module posh-git
-Import-Module oh-my-posh
-Import-Module Terminal-Icons
-Import-Module PSReadLine
-Set-PoshPrompt -Theme slim
-Clear
-```
-
-Save the file. Return to PowerShell: 7 within Terminal and input:
-```
-Install-Module -Name PowerShellGet -Force
-Set-ExecutionPolicy RemoteSigned
-Install-Module post-git -Scope CurrentUser
-Install-Module oh-my-posh -AllowPrerelease -Scope CurrentUser
-Install-Module Terminal-Icons -Scope CurrentUser
-Install-Module PSReadLine -Scope CurrentUser
-. $PROFILE
-```
+`settings.json` file is when you click on the down arrow then settings within the Terminal application.
 
 # PowerShell: 5
 Settings for PowerShell: 5
@@ -50,6 +24,32 @@ Install-Module -Name PowerShellGet -Force
 Set-ExecutionPolicy RemoteSigned
 Install-Module post-git -Scope CurrentUser
 Install-Module oh-my-posh -Scope CurrentUser
+Install-Module Terminal-Icons -Scope CurrentUser
+Install-Module PSReadLine -Scope CurrentUser
+. $PROFILE
+```
+
+# PowerShell: 7
+Settings for PowerShell: 7
+-----
+
+While in PowerShell 7, within Terminal: `notepad $PROFILE`. This should bring up a file (create new if necessary). Within this file, input:
+
+```
+Import-Module posh-git
+Import-Module oh-my-posh
+Import-Module Terminal-Icons
+Import-Module PSReadLine
+Set-PoshPrompt -Theme slim
+Clear
+```
+
+Save the file. Return to PowerShell: 7 within Terminal and input:
+```
+Install-Module -Name PowerShellGet -Force
+Set-ExecutionPolicy RemoteSigned
+Install-Module post-git -Scope CurrentUser
+Install-Module oh-my-posh -AllowPrerelease -Scope CurrentUser
 Install-Module Terminal-Icons -Scope CurrentUser
 Install-Module PSReadLine -Scope CurrentUser
 . $PROFILE
