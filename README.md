@@ -4,7 +4,6 @@ Themes for Windows Terminal
 `settings.json` file is when you click on the down arrow then settings within the Terminal application.
 
 # PowerShell: 5
------
 <br>
 <img src="Screenshots/PS_5.png">
 
@@ -31,7 +30,6 @@ Install-Module PSReadLine -Scope CurrentUser
 ```
 
 # PowerShell: 7
------
 <br>
 <img src="Screenshots/PS_7.png">
 
@@ -58,19 +56,15 @@ Install-Module PSReadLine -Scope CurrentUser
 ```
 
 # Command Prompt
------
 <br>
 <img src="Screenshots/CMD.png">
 
 # Fonts
------
-
 The fonts that you need are:
 [Cascadia Code PL](https://github.com/microsoft/cascadia-code/releases) and the rest of the fonts in the `Fonts` folder. Basically, any powerline glyph nerd font.
 
 
 # Sources
------
 And copyrights should belong to them, if any.
 
 - [oh-my-posh v2](https://github.com/JanDeDobbeleer/oh-my-posh)
