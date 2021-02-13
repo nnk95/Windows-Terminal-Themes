@@ -77,3 +77,4 @@ And copyrights should belong to them, if any.
 - [oh-my-posh v3](https://github.com/JanDeDobbeleer/oh-my-posh3)
 - [posh-git](https://github.com/dahlbyk/posh-git)
 - [Aurelia Theme](https://github.com/mobilemancer/windows-terminal-aurelia)
+- [Windows Screenfetch](https://github.com/JulianChow94/Windows-screenFetch)
