@@ -1,4 +1,8 @@
 # Windows Terminal: Themes
+
+![GitHub last commit](https://img.shields.io/github/last-commit/nnk95/Windows-Terminal-Themes?style=for-the-badge)
+
+---
 Themes for Windows Terminal
 
 `settings.json` file is when you click on the down arrow then settings within the Terminal application.
