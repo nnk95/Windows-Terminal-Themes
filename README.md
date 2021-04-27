@@ -1,6 +1,6 @@
 # Windows Terminal: Themes
 
-![GitHub last commit](https://img.shields.io/github/last-commit/nnk95/Windows-Terminal-Themes?style=for-the-badge)
+![Lines of code](https://img.shields.io/tokei/lines/github/nnk95/Windows-Terminal-Themes?style=for-the-badge) ![GitHub last commit](https://img.shields.io/github/last-commit/nnk95/Windows-Terminal-Themes?style=for-the-badge)
 
 ---
 Themes for Windows Terminal
